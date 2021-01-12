@@ -1,0 +1,135 @@
+ul, ol {
+    list-style-type:none;
+    padding:0;
+    margin:0;
+}
+
+a {
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+}
+
+
+body {
+    margin:0;
+    padding:15px;
+
+    height:100vh; 
+    background: rgb(181, 231, 216);
+    background: linear-gradient(135deg, rgb(106, 153, 130) 0%, rgb(176, 212, 233) 100%);    background-attachment:fixed;
+    background-attachment: fixed;
+
+    
+    color:#fff;
+}
+
+#container {
+    margin:auto;
+    width:250px;
+}
+
+
+header h1 {
+    
+    font-size:40px;
+    font-weight:700;
+    letter-spacing:0.05em;
+
+    margin: 20px 0px 0px 10px;
+}
+
+header h2 {
+    font-size: 15px;
+
+    margin: 5px 0px 12px 10px;
+}
+
+header {
+   
+    background-size:40px;
+    background-repeat:no-repeat;
+    background-position-x:155px;
+    background-position-y:45px;
+}
+
+
+
+section {
+    background:#ebe8bfa1;
+    border-radius:10px;
+    padding:10px;
+    margin:15px 0px 0px 0px;
+}
+
+section h2 {
+    
+    font-weight:500;
+    margin:0px 0px 8px 0px;
+    font-size:20px;
+}
+
+section li {
+    list-style-type: none;
+    line-height: 1.3em;
+    margin:4px 0px;
+}
+
+section li:hover a {
+    color:#5d8070a6
+}
+
+
+
+footer {
+    font-size:14px;
+    margin-bottom:20px;
+}
+
+footer a {
+    font-weight:400;
+    font-style:italic;
+    margin:10px;
+}
+
+footer a :hover a {
+    color:#dee2a2
+}
+
+@media only screen and (min-width:800px) {
+
+    #container {
+        
+        width:80%;
+        max-width: 800px;
+    }
+
+
+    main {
+        
+        display:flex;
+    } 
+
+    section {
+        
+      width:33%;
+      margin:200px 15px 15px 0px;
+      display:block;
+    }
+
+    header {
+        background-position-x:345px;
+        background-position-y:0;
+    }
+
+    footer{
+        width:50%;
+        display:flex;
+    }
+
+    footer a {
+        
+        margin: 200px 0px 15px 0px;
+    }
+
+    
+}
