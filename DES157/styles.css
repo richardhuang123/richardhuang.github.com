@@ -10,13 +10,21 @@ a {
 }
 
 
+  
+  
 body {
-    margin:0;
-    padding:15px;
+    
+        
+        
+        
+    
+    margin:auto;
+    
+    
 
     height:100vh; 
-    background: rgb(181, 231, 216);
-    background: linear-gradient(135deg, rgb(106, 153, 130) 0%, rgb(176, 212, 233) 100%);    background-attachment:fixed;
+    background: rgb(181, 199, 231);
+    background: linear-gradient(135deg, rgb(144, 223, 223) 0%, rgb(56, 83, 99) 100%);    background-attachment:fixed;
     background-attachment: fixed;
 
     
@@ -28,37 +36,116 @@ body {
     width:250px;
 }
 
-
-header h1 {
+#snow1{
     
-    font-size:40px;
+    animation-name: snow1;
+    position: relative;
+    animation-delay: 2s;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes snow1 {
+   
+    0%   { left:0px; top:0px;}
+  
+    100%  { left:0px; top:1000px;}
+  }
+  #snow2{
+    
+    animation-name: snow2;
+    position: relative;
+    animation-delay: 3s;
+    animation-duration: 23s;
+    animation-iteration-count: infinite;
+}
+@keyframes snow2 {
+   
+    0%   { left:0px; top:0px;}
+  
+    100%  { left:0px; top:1000px;}
+  }
+  #snow3{
+    
+    animation-name: snow3;
+    position: relative;
+    animation-delay: 2s;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+@keyframes snow3 {
+   
+    0%   { left:0px; top:0px;}
+  
+    100%  { left:0px; top:1000px;}
+  }
+  #snow4{
+    
+    animation-name: snow4;
+    position: relative;
+    animation-delay: 5s;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+}
+@keyframes snow4 {
+   
+    0%   { left:0px; top:0px;}
+  
+    100%  { left:0px; top:1000px;}
+  }
+  #snow5{
+    
+    animation-name: snow5;
+    position: relative;
+    animation-delay: 2s;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+}
+@keyframes snow5 {
+   
+    0%   { left:0px; top:0px;}
+  
+    100%  { left:0px; top:1000px;}
+  }
+header h1 {
+    text-align: center;
+    font-size:18px;
     font-weight:700;
     letter-spacing:0.05em;
 
-    margin: 20px 0px 0px 10px;
+    margin:auto;
 }
-
-
-
+header h2{
+    text-align: center;
+    font-size:15px;
+}
 header {
-   
-    background-size:40px;
-    background-repeat:no-repeat;
-    background-position-x:155px;
-    background-position-y:45px;
+    padding: 30px;
+    border-radius: 25px;
+    background-color: rgb(0, 183, 255);
+    animation-name: example;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    background-position-x:240px;
+    background-position-y:0;
 }
+@keyframes example {
+    from {background-color: rgba(0, 183, 255, 0.61);}
+    to {background-color: rgba(52, 91, 150, 0.582);}
+  }
+
 
 
 
 section {
-    background:#ebe8bfa1;
+    text-align: center;
+    background:#83816aa1;
     border-radius:10px;
     padding:10px;
     margin:15px 0px 0px 0px;
 }
 
 section h2 {
-    
+    text-align: center;
     font-weight:500;
     margin:0px 0px 8px 0px;
     font-size:20px;
@@ -70,22 +157,27 @@ section li {
     margin:4px 0px;
 }
 section :hover p {
-    color:#5d8070a6
+    color:#1690c9a6
 }
 section li:hover a {
-    color:#5d8070a6
+    color:#29d1dde8
 }
 
 
 
 footer {
+    
     font-size:14px;
-    margin-bottom:20px;
+    left: 0;
+  bottom: 0;
+  width: 100%;
+ 
 }
 
-footer a {
-    font-weight:400;
-    font-style:italic;
+footer p a {
+    text-align: center;
+  
+    
     margin:10px;
 }
 
@@ -94,12 +186,44 @@ footer p:hover a {
 }
 
 @media only screen and (min-width:800px) {
+body{
+    margin: auto;
+    
+    max-width: 1120px;
 
+}
     #container {
         
         width:80%;
         max-width: 800px;
     }
+    i{
+        margin:auto;
+        top: -400px;
+        text-align: center;
+        padding: 50px;
+        
+        
+        
+        column-width: 120px;
+        z-index: -1;
+       
+    }
+     .fas fa-snowflake :hover {
+       color:#0084f0
+    }
+    header h1 {
+        text-align: center;
+        font-size:30px;
+        font-weight:700;
+        letter-spacing:0.05em;
+    
+        margin:auto;
+    }
+    
+   header {
+    padding: 50px;
+   }
 
 
     main {
@@ -113,21 +237,16 @@ footer p:hover a {
       margin:200px 15px 15px 0px;
       display:block;
     }
-
-    header {
-        background-position-x:345px;
-        background-position-y:0;
-    }
-
-    footer{
-        width:50%;
-        display:flex;
-    }
+   
 
     footer p {
         
-        margin: 200px 0px 15px 0px;
+        text-align: center;
+        
+       
     }
+
+    
 
     
 }
