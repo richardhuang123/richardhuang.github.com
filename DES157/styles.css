@@ -30,7 +30,6 @@ i{
     margin:auto;
     top: -400px;
     text-align: center;
-    
     column-width: 215px;
     z-index: -1;
    
@@ -39,7 +38,7 @@ i{
     
     animation-name: snow1;
     position: relative;
-    animation-delay: 8s;
+    animation-delay: 4s;
     animation-duration: 16s;
     animation-iteration-count: infinite;
 }
@@ -47,7 +46,7 @@ i{
    
     0%   { left:0px; top:0px;}
   
-    100%  { left:0px; top:1000px;}
+    100%  { left:100px; top:800px;}
   }
   #snow2{
     
@@ -61,7 +60,7 @@ i{
    
     0%   { left:0px; top:0px;}
   
-    100%  { left:0px; top:1000px;}
+    100%  { left:100px; top:1000px;}
   }
   #snow3{
     
@@ -75,7 +74,7 @@ i{
    
     0%   { left:0px; top:0px;}
   
-    100%  { left:0px; top:1000px;}
+    100%  { left:150px; top:1000px;}
   }
   #snow4{
     
@@ -89,7 +88,7 @@ i{
    
     0%   { left:0px; top:0px;}
   
-    100%  { left:0px; top:1000px;}
+    100%  { left:-220px; top:1000px;}
   }
   #snow5{
     
@@ -103,7 +102,7 @@ i{
    
     0%   { left:0px; top:0px;}
   
-    100%  { left:0px; top:1000px;}
+    100%  { left:-200px; top:1000px;}
   }
 header h1 {
     font-family: 'Lobster', cursive;
@@ -231,8 +230,6 @@ body{
     footer p {
         
         text-align: center;
-        
-       
     }
 
     
