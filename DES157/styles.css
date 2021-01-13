@@ -26,14 +26,12 @@ body {
     width:250px;
 }
 i{
+    
     margin:auto;
     top: -400px;
     text-align: center;
-    padding: 50px;
     
-    
-    
-    column-width: 120px;
+    column-width: 215px;
     z-index: -1;
    
 }
