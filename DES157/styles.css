@@ -13,21 +13,11 @@ a {
   
   
 body {
-    
-        
-        
-        
-    
     margin:auto;
-    
-    
-
     height:100vh; 
-    background: rgb(181, 199, 231);
-    background: linear-gradient(135deg, rgb(144, 223, 223) 0%, rgb(56, 83, 99) 100%);    background-attachment:fixed;
+    background: rgb(204, 218, 243);
+    background: linear-gradient(135deg, rgb(221, 237, 248) 0%, rgb(14, 105, 190) 100%);    background-attachment:fixed;
     background-attachment: fixed;
-
-    
     color:#fff;
 }
 
@@ -123,7 +113,7 @@ header h1 {
     font-size:30px;
     font-weight:700;
     letter-spacing:0.05em;
-
+    text-shadow: 2px 2px 4px #000000;
     margin:auto;
 }
 header h2{
@@ -150,13 +140,14 @@ header {
 
 section {
     text-align: center;
-    background:#83816aa1;
+    background:#5ec5a3a1;
     border-radius:10px;
     padding:10px;
     margin:15px 0px 0px 0px;
 }
 
 section h2 {
+    text-shadow: 2px 2px 4px #000000;
     font-family: 'Lobster', cursive;
     text-align: center;
     font-weight:500;
@@ -169,12 +160,13 @@ section li {
     line-height: 1.3em;
     margin:4px 0px;
 }
-section :hover p {
-    color:#1690c9a6
-}
+
 section li:hover a {
-    color:#29d1dde8
+    color:#506dac;
+    font-size:19px;
+    text-shadow: 1px 1px 2px #000000;
 }
+
 
 
 
@@ -198,15 +190,13 @@ footer p:hover a {
     color:#dee2a2
 }
 
+
 @media only screen and (min-width:800px) {
 body{
     margin: auto;
-    
     max-width: 1120px;
-
 }
     #container {
-        
         width:80%;
         max-width: 800px;
     }
