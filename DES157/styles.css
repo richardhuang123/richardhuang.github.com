@@ -35,13 +35,24 @@ body {
     margin:auto;
     width:250px;
 }
-
+i{
+    margin:auto;
+    top: -400px;
+    text-align: center;
+    padding: 50px;
+    
+    
+    
+    column-width: 120px;
+    z-index: -1;
+   
+}
 #snow1{
     
     animation-name: snow1;
     position: relative;
-    animation-delay: 2s;
-    animation-duration: 20s;
+    animation-delay: 8s;
+    animation-duration: 16s;
     animation-iteration-count: infinite;
 }
 @keyframes snow1 {
@@ -55,7 +66,7 @@ body {
     animation-name: snow2;
     position: relative;
     animation-delay: 3s;
-    animation-duration: 23s;
+    animation-duration: 17s;
     animation-iteration-count: infinite;
 }
 @keyframes snow2 {
@@ -68,8 +79,8 @@ body {
     
     animation-name: snow3;
     position: relative;
-    animation-delay: 2s;
-    animation-duration: 15s;
+    animation-delay: 1s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
 }
 @keyframes snow3 {
@@ -83,7 +94,7 @@ body {
     animation-name: snow4;
     position: relative;
     animation-delay: 5s;
-    animation-duration: 16s;
+    animation-duration: 13s;
     animation-iteration-count: infinite;
 }
 @keyframes snow4 {
@@ -97,7 +108,7 @@ body {
     animation-name: snow5;
     position: relative;
     animation-delay: 2s;
-    animation-duration: 18s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
 }
 @keyframes snow5 {
@@ -107,8 +118,9 @@ body {
     100%  { left:0px; top:1000px;}
   }
 header h1 {
+    font-family: 'Lobster', cursive;
     text-align: center;
-    font-size:18px;
+    font-size:30px;
     font-weight:700;
     letter-spacing:0.05em;
 
@@ -116,7 +128,7 @@ header h1 {
 }
 header h2{
     text-align: center;
-    font-size:15px;
+    font-size:20px;
 }
 header {
     padding: 30px;
@@ -145,10 +157,11 @@ section {
 }
 
 section h2 {
+    font-family: 'Lobster', cursive;
     text-align: center;
     font-weight:500;
     margin:0px 0px 8px 0px;
-    font-size:20px;
+    font-size:22px;
 }
 
 section li {
@@ -197,24 +210,11 @@ body{
         width:80%;
         max-width: 800px;
     }
-    i{
-        margin:auto;
-        top: -400px;
-        text-align: center;
-        padding: 50px;
-        
-        
-        
-        column-width: 120px;
-        z-index: -1;
-       
-    }
-     .fas fa-snowflake :hover {
-       color:#0084f0
-    }
+
+     
     header h1 {
         text-align: center;
-        font-size:30px;
+        font-size:40px;
         font-weight:700;
         letter-spacing:0.05em;
     
@@ -237,8 +237,9 @@ body{
       margin:200px 15px 15px 0px;
       display:block;
     }
-   
-
+   section h2{
+    font-size:30px;
+   }
     footer p {
         
         text-align: center;
