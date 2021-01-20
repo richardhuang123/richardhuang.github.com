@@ -38,7 +38,7 @@ i{
     
     animation-name: snow1;
     position: relative;
-    animation-delay: 4s;
+    animation-delay: 5s;
     animation-duration: 16s;
     animation-iteration-count: infinite;
 }
