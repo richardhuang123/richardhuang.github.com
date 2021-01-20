@@ -159,9 +159,9 @@ section li {
 }
 
 section li:hover a {
-    color:#506dac;
+    background-color: rgba(118, 118, 255, 0.274);
     font-size:19px;
-    text-shadow: 1px 1px 2px #000000;
+    
 }
 
 
