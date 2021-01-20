@@ -6,7 +6,9 @@
     </head>
     <body>
         <h1>JS Experimentation - Functions & DOM</h1>
-        
+        <div id="your">
+            <p></p>
+        </div>
         <script>
             var yourName= prompt('provide your name','');
          var food = ['apple','banana','ice cream','noodle','candy'];
@@ -26,13 +28,14 @@
         }
         
         function hospitality(name, gift){
-            console.log(hello(name));
+           console.log(hello(name));
             var randomGift = gift[ randomInt(0, gift.length-1)];
             console.log(`${name},would you like some ${randomGift}?`);
 
         }
         hospitality(yourName, food);
-
+        document.getElementById("your").innerHTML = "Hello!";
+        document.write(Date());
         </script>
     </body>
 </html>
