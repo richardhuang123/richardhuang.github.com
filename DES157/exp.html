@@ -6,9 +6,7 @@
     </head>
     <body>
         <h1>JS Experimentation - Functions & DOM</h1>
-        <div id="your">
-            <p></p>
-        </div>
+        <h2 id="name"></h2>
         <script>
             var yourName= prompt('provide your name','');
          var food = ['apple','banana','ice cream','noodle','candy'];
@@ -34,7 +32,7 @@
 
         }
         hospitality(yourName, food);
-        document.getElementById("your").innerHTML = "Hello!";
+        document.getElementById("name").innerHTML = "hello "+yourName+"";
         document.write(Date());
         </script>
     </body>
