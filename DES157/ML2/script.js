@@ -25,19 +25,18 @@
             alert("Please fill out the words");
         }
 
-        // put text into the article with the id of madlib, 
-        // but the section overlay is still hidden
+       
         madlib.innerHTML = myText;
 
-        // turn on the overlay
+    
         document.getElementById('overlay').className = "showing";
 
-        // turn off the form
+      
         myForm.className = "hidden";
 
 
 
-        //clear form after submit
+  
         var formData = document.querySelectorAll("input[type=text]");
 
         for (const eachField of formData) {
