@@ -111,6 +111,69 @@ article{
     margin-bottom: 50px;
     
 }
+.text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Mansalva", cursive;
+    font-size: 48px;
+    width: 90%;
+}
+
+form {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+input,
+label {
+    display: block;
+    font-family: 'Patrick Hand', cursive;
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+form input:focus {
+    background-color: #eaf9ff;
+}
+
+input[type=text] {
+    width: 60%;
+    padding: 2px 10px 2px 10px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: 2px solid #b7dfeb;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    background-color: #d9f1ff;
+    opacity: 0.5;
+}
+
+input[type=submit] {
+    box-sizing: border-box;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    color: #41a3ff;;
+    background-color: #ddedff;
+    background-image: url("images/heartbtn.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 120px;
+    padding: 5px 40px 8px 15px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+input[type=submit]:hover {
+    background-color: #eafeff ;
+    transition: .5s ease;
+    box-shadow: #d4f7ef 3px 3px;
+}
 
 .hidden {
     visibility: hidden;
@@ -130,7 +193,7 @@ footer{
 	background-color: rgb(99, 145, 230,.6);
 	padding:50px;
 	text-align: center;
-	margin-top: 400px;
+	margin-top: 200px;
 }
 footer a{
 	color: black;
