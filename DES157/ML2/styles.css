@@ -118,7 +118,7 @@ article{
 }
 
 .showing {
-    /* changed showing to visible */
+    
     visibility: visible;
     display: block;
     margin-top: 20px;
@@ -130,7 +130,7 @@ footer{
 	background-color: rgb(99, 145, 230,.6);
 	padding:50px;
 	text-align: center;
-	
+	margin-bottom: 50px;
 }
 footer a{
 	color: black;
@@ -168,7 +168,7 @@ h2 {
 li a {font-size: 100%;}
 
 footer {
-	
+	margin-bottom: 50px;
 	background-color: rgba(153, 182, 236, 0.746);
 	
  }
