@@ -160,8 +160,6 @@ input[type=submit] {
     margin-bottom: 10px;
     color: #41a3ff;;
     background-color: #ddedff;
-    background-image: url("images/heartbtn.svg");
-    background-repeat: no-repeat;
     background-size: auto;
     background-position: 120px;
     padding: 5px 40px 8px 15px;
