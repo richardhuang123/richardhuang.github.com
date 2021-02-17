@@ -88,17 +88,7 @@ header nav ul li a {
 		margin-left: 25px;
 	}
 	
-	/*************** Second Section Styles ***************/
-	/* #second div, #fifth div {
-		display: flex;
-		justify-content: space-between;
-	}
-
-	#second article {
-		width: 30%;
-	} */
-
-	/*************** Third Section Styles ***************/
+	
 	#third article {
 		display: flex;
 		align-items: flex-start;
