@@ -107,6 +107,15 @@ header nav ul li a {
 		margin-bottom: 500px;
 	}
 }
+footer{
+	background-color: rgb(99, 145, 230,.6);
+	padding:50px;
+	text-align: center;
+	
+}
+footer a{
+	color: black;
+}
 
 @media only screen and (min-width: 1000px) {
 	section, header nav {
