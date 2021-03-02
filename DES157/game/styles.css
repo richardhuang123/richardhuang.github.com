@@ -1,0 +1,71 @@
+body {
+    width:70%;
+    font-family: Arial;
+    color: #333;
+    padding: 50px;
+    line-height: 1.5em;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+article {
+    background-color: rgb(187, 250, 255);
+    padding: 6px 12px 6px 12px;
+    margin-bottom: 50px;
+    line-height: 2;
+    width:80%;
+    border-radius: 22px;
+	margin:auto;
+    border: 1px solid;
+}
+button { 
+    padding: 10px;
+}
+section {
+    
+    display: flex;
+    flex-wrap: nowrap;
+}
+section > div {
+    width: 300px;
+    padding: 30px;
+}
+
+/* div {
+    padding: 30px;
+} */
+
+#gamecontrol {
+    background-color: aliceblue;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+#G1 {
+    background-color:#89f1ec;
+    
+}
+#actions {
+    background-color:#89f1ec;
+}
+
+
+#score {
+    background-color: #fffd84;
+    min-height: 300px;
+}
+#score1 {
+    background-color: #ff9393;
+}
+#roll, #rollagain{
+    background-color: rgb(65, 201, 255);
+}
+
+
+#pass {
+    background-color: rgb(255, 146, 146);
+}
+
+
