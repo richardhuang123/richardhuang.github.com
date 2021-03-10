@@ -15,9 +15,22 @@ header {
 }
 
 
+ /* .first:hover {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+	-ms-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
+} */
 
 /*photobanner*/
-
+ .photobanner:hover {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+	-ms-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
 .photobanner {
 	height: 233px;
 	width: 3550px;
@@ -25,11 +38,11 @@ header {
 }
 
 /*keyframe animations*/
-.first {
-	/* -webkit-animation: bannermove 40s linear infinite; */
-	   /* -moz-animation: bannermove 40s linear infinite; */
-	    /* -ms-animation: bannermove 40s linear infinite; */
-	     /* -o-animation: bannermove 40s linear infinite; */
+.photobanner {
+	-webkit-animation: bannermove 40s linear infinite;
+	   -moz-animation: bannermove 40s linear infinite;
+	    -ms-animation: bannermove 40s linear infinite;
+	     -o-animation: bannermove 40s linear infinite;
          animation: bannermove 20s linear infinite;
 }
 
