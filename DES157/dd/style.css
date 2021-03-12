@@ -64,7 +64,85 @@ header {
 
 
 
-
+  i{
+    
+    margin:auto;
+    top: -400px;
+    text-align: center;
+    column-width: 215px;
+    z-index: -1;
+   
+}
+#snow1{
+    
+    animation-name: snow1;
+    position: relative;
+    animation-delay: 5s;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+}
+@keyframes snow1 {
+   
+    0%   { left:0px; top:0px;}
+  
+    100%  { left:100px; top:800px;}
+  }
+  #snow2{
+    
+    animation-name: snow2;
+    position: relative;
+    animation-delay: 3s;
+    animation-duration: 17s;
+    animation-iteration-count: infinite;
+}
+@keyframes snow2 {
+   
+    0%   { left:0px; top:0px;}
+  
+    100%  { left:100px; top:1000px;}
+  }
+  #snow3{
+    
+    animation-name: snow3;
+    position: relative;
+    animation-delay: 1s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes snow3 {
+   
+    0%   { left:0px; top:0px;}
+  
+    100%  { left:150px; top:1000px;}
+  }
+  #snow4{
+    
+    animation-name: snow4;
+    position: relative;
+    animation-delay: 5s;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+}
+@keyframes snow4 {
+   
+    0%   { left:0px; top:0px;}
+  
+    100%  { left:-220px; top:1000px;}
+  }
+  #snow5{
+    
+    animation-name: snow5;
+    position: relative;
+    animation-delay: 2s;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+@keyframes snow5 {
+   
+    0%   { left:0px; top:0px;}
+  
+    100%  { left:-200px; top:1000px;}
+  }
 
 /* .img__wrap {
 	position: relative;
