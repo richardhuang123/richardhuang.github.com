@@ -128,7 +128,7 @@ header {
     margin-left: 0px;
  }
  100% {
-    margin-left: -1650px;
+    margin-left: -1750px;
  }
 
 }
@@ -140,7 +140,7 @@ header {
    margin-left: 0px;
  }
  100% {
-   margin-left: -1650px;
+   margin-left: -1750px;
  }
 
 }
@@ -148,7 +148,7 @@ header {
 
 
 a:hover{
-    background-color: rgba(168, 168, 168, 0.349);
+    background-color: rgba(168, 168, 168, 0.377);
 }
 h1 {
 	text-align: center;
