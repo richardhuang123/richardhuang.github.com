@@ -22,13 +22,13 @@ header {
 
 
 .onClickTextOverImage{
-	width:300px;
-	height:300px;
+	width:400px;
+	height:400px;
 	background-size:cover;
 	display:inline-block;
 	margin:4px;
 	border-radius:16px;
-	box-shadow:0 0 16px rgba(0,0,0,0.5);
+	box-shadow:0 0 16px rgba(144, 144, 144, 0.472);
 	position:relative;
   }
   
@@ -43,11 +43,11 @@ header {
   
   .onClickTextOverImage div{
 	z-index:1;
-	color:#fff;
+	color:rgb(255, 255, 255);
 	text-align:center;
 	padding:8px;
 	padding-top:35%;
-	background-color:rgba(0,0,0,0.5);
+	background-color:rgba(109, 108, 108, 0.507);
 	border-radius:16px;
 	opacity:0;
 	transition:.3s;
@@ -84,13 +84,13 @@ header {
 	opacity: 0; */
   
 	/* transition effect. not necessary */
-	transition: opacity .2s, visibility .2s;
+	/* transition: opacity .2s, visibility .2s;
   }
   
   .img__wrap:hover .img__description {
 	visibility: visible;
 	opacity: 1;
-  }
+  } */
  /* .first:hover {
     -webkit-animation-play-state: paused;
     -moz-animation-play-state: paused;
@@ -108,7 +108,7 @@ header {
     animation-play-state: paused;
 }
 .photobanner {
-	height: 233px;
+	height: 333px;
 	width: 3550px;
 	margin-bottom: 80px;
 }
@@ -147,7 +147,7 @@ header {
 
 
 a:hover{
-    background-color: rgba(168, 168, 168, 0.863);
+    background-color: rgba(168, 168, 168, 0.349);
 }
 h1 {
 	text-align: center;
